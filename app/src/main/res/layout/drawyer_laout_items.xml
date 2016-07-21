@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <com.snyxius.shahiranjan.fonts.AvenirTextViewHeavy
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:textColor="#f6546a"
+            android:text="#Eat"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView2"
+            android:layout_weight="1" />
+
+        <com.snyxius.shahiranjan.fonts.AvenirTextViewHeavy
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:text="#Drnk"
+            android:id="@+id/textView3"
+            android:layout_weight="1" />
+
+        <com.snyxius.shahiranjan.fonts.AvenirTextViewHeavy
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:textColor="#f6546a"
+            android:text="#Work"
+            android:id="@+id/textView4"
+            android:layout_weight="1" />
+
+        <com.snyxius.shahiranjan.fonts.AvenirTextViewHeavy
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:textColor="#f6546a"
+            android:text="#People"
+            android:id="@+id/textView5"
+            android:layout_weight="1" />
+
+        <com.snyxius.shahiranjan.fonts.AvenirTextViewHeavy
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:textColor="#f6546a"
+            android:text="#Gigs"
+            android:id="@+id/textView6"
+            android:layout_weight="1" />
+
+        <com.snyxius.shahiranjan.fonts.AvenirTextViewHeavy
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:textColor="#f6546a"
+            android:text="#Explore"
+            android:id="@+id/textView7"
+            android:layout_weight="1" />
+
+        <com.snyxius.shahiranjan.fonts.AvenirTextViewHeavy
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:textColor="#f6546a"
+            android:text="#Current Order"
+            android:id="@+id/textView8"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/bar"
+        android:layout_alignParentBottom="true"
+        android:background="#f61">
+        <include layout="@layout/nav_header"/>
+    </LinearLayout>
+
+</RelativeLayout>
